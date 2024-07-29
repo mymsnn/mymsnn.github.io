@@ -1,11 +1,11 @@
 ---
 layout:     post
-title:      Emby客户端整理汇总
-subtitle:   Emby客户端整理汇总
+title:      My first blog
 author:     mymsnn
 catalog: 	 true
 tags:
-    - Emby
+    - blog
 ---
+一直都很想搭建一个自己的博客，这几天刚好有时间，就花了些时间借助GitHub Pages简单地搭建了一个自己的博客，非常简单好用。
 
-> 排名不分先后：
+![](https://pic.imgdb.cn/item/66a6478ad9c307b7e9f395fe.png)
