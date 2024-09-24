@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Mobile Legends : Bang Bang
+title:  Mobile Legends Bang Bang
 ---
 
 **MLBB 是款手机 [MOBA](https://zhida.zhihu.com/search?q=MOBA&zhida_source=entity&is_preview=1) 游戏，全称是 Mobile Legends : Bang Bang**
