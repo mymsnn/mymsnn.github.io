@@ -1,8 +1,7 @@
 ---
-layout: about
-title:  About
+layout: page
+title:  about
 ---
-
 这是我的个人博客，记录收藏、生活等方面的点点滴滴。
 
 <hr />
