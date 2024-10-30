@@ -21,6 +21,6 @@ Gzbak.com是一个提供全面功能的免费建站平台，它为用户带来�
 提供邮件服务，用户可以创建以自己域名结尾的邮箱。
 提供建站工具，帮助用户轻松搭建和管理网站。
 
-(http://www.gzbak.com/)[http://www.gzbak.com/]
+[http://www.gzbak.com/](http://www.gzbak.com/)
 
 这个站点竟然没有SSL,实在怀疑网站的稳定性。
