@@ -2,10 +2,6 @@
 layout:     post
 title:      GitHub English Top Charts
 author:     mymsnn
-catalog: 	 true
-tags:
-    - Github
-    - English
 ---
 GitHub English Top Charts
 
