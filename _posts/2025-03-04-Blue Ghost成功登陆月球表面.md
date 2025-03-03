@@ -1,7 +1,7 @@
 ---
+layout: post
 title: Blue Ghostr成功登陆月球表面
 tags: ["Blue", "moon"]
-layout: post
 ---
 ![](https://pic.superbed.cc/item/67c5977af688033adbcdc406.jpg)
 
