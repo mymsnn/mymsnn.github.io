@@ -1,5 +1,5 @@
 ---
-title: "Firefly ‘Blue Ghost’ 成功登陆月球表面"
+title: Blue Ghostr成功登陆月球表面
 tags: ["Blue", "moon"]
 layout: post
 ---
