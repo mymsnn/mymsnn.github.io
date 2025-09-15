@@ -1,11 +1,6 @@
 ---
 layout: post
 title: "Visual Studio 2026 推荐配置引热议：64GB内存+16核CPU的背后原因"
-date: 2023-11-07
-author: 转载
-categories: [开发工具, 微软]
-tags: [Visual Studio, 硬件配置, 开发环境]
-comments: true
 ---
 
 微软近日发布了 Visual Studio 2026 的预览版，并在硬件建议中推荐使用 64GB 内存和 16 核 CPU，这一配置要求引发了广泛关注。
