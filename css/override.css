@@ -79,6 +79,7 @@ hr {
   max-width: 720px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 24px;
 }
 
 .post-title {
