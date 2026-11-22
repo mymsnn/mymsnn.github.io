@@ -28,6 +28,14 @@ hr {
   letter-spacing: -0.02em;
 }
 
+/* Article pages: smaller, regular-weight site title; homepage unchanged */
+body:has(.post) .site-title,
+body:has(.post) .site-title:visited {
+  font-size: 1.25rem;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
 .site-nav,
 .page-link {
   font-family: var(--font-sans);
