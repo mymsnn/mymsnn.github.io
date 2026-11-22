@@ -508,3 +508,18 @@ https://github.com/mymsnn/mymsnn.github.io/blob/master/_posts/2026-11-21-zuoge-y
 - [ ] 检查文章提交后的 GitHub Pages 构建结果。
 - [ ] 检查网站是否已显示新文章及图片。
 - [ ] 确认部署完成后更新本档案中的部署状态。
+
+
+### 10.4 部署结果补记（2026-11-22）
+
+文章提交 `3896cb0fd6db402efa5d4a15720728998e40b5ea` 对应的 GitHub Actions 工作流：
+
+- 工作流：Deploy Jekyll with GitHub Pages dependencies preinstalled
+- 运行编号：307
+- 运行记录：https://github.com/mymsnn/mymsnn.github.io/actions/runs/45009519314
+- 最终状态：`completed`
+- 结论：`success`
+
+因此，文章提交对应的 Jekyll / GitHub Pages 构建与部署工作流已成功完成。此结论只针对上述文章提交；网站实际页面的外部访问显示尚未单独验证。
+
+档案更新提交 `8c185733fcc0d656d5cebc45cc469c7969a1838a` 触发的工作流运行编号为 308，核对时仍为 pending；该提交只更新本档案，不改变文章内容。
