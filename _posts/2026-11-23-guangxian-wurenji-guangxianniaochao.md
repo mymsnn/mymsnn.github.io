@@ -12,7 +12,7 @@ tags:
 
 更令人意外的是，有些光纤竟然被带进了鸟巢。一个小小的巢穴，把高科技战争与野生动物的生存现实连在了一起。
 
-![混入光纤的鸟巢](https://img.natgeomedia.com/userfiles/sm/sm1920_images_A1/19438/2026100275771169.jpg)
+![混入光纤的鸟巢](/assets/images/articles/fiber-optic-bird-nest.webp)
 
 <small>图片来源：乌克兰战争博物馆（CC BY-NC-SA 4.0）</small>
 
@@ -26,7 +26,7 @@ tags:
 
 此后，乌克兰也加快追赶。到2025年年中，乌克兰在几个月内核准了超过80款国产光纤系统。
 
-![携带光纤的无人机](https://img.natgeomedia.com/userfiles/sm/sm1920_images_A1/19438/2026100275812865.jpg)
+![携带光纤的无人机](/assets/images/articles/fiber-optic-drone.webp)
 
 <small>图片来源：АрміяІнформ（CC BY 4.0）</small>
 
