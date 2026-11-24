@@ -4,6 +4,7 @@ description: "做一个有意思的人" # This will show up in places like twitt
 
 # Pages displayed in the Minima navigation.
 header_pages:
+  - archive.md
   - README.md
 
 # Email / Social media user names used by the minima theme:
