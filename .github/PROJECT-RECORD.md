@@ -604,7 +604,7 @@ https://github.com/mymsnn/mymsnn.github.io/blob/master/_posts/2026-11-21-zuoge-y
 
 ### 13.5 当前待办与风险
 
-- `_includes/navlinks.html` 仍引用根目录 `archive.html`，但当前完整仓库树未发现该文件；需进一步确认是否存在失效归档链接或主题提供的替代页面。本次不擅自新增归档页。
+- `_includes/navlinks.html` 引用 `archive.html`；仓库中存在 `archive.md`（`layout: page`、标题为 Blog Archive），Jekyll 会将 Markdown 页面构建为 HTML 页面，因此该引用有对应源文件。仍需在部署后点击验证线上归档页。
 - `_includes/head.html` 同时加载两份 highlight.js 样式表，可能产生层叠覆盖；需通过实际页面效果确认后再决定是否精简。
 - 当前 `.gitignore` 仍忽略 `_config.yml`，但该文件已被 Git 跟踪；此规则会影响未来新建/重新跟踪时的行为，暂时保留，后续确认是否仍有必要。
 - 当前分支 `master` 未启用保护规则；写入前继续核对分支最新 SHA，避免覆盖他人或并发提交。
