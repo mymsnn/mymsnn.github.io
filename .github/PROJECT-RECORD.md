@@ -1,7 +1,7 @@
 # mymsnn 项目档案（PROJECT-RECORD）
 
 > 本文档是 `mymsnn/mymsnn.github.io` 的项目记录。  
-> 最后核对：2026-11-22  
+> 最后核对：2026-11-24  
 > 当前档案状态：初始版；部分部署、主题来源及运行状态仍待核实。  
 > 记录原则：只记录已由用户明确说明或通过 GitHub 实际读取确认的信息；不把推测写成事实。
 
@@ -66,8 +66,8 @@
 | `_layouts/post.html` | 仓库自定义文章布局；输出标题、日期、作者、分享区域、正文及前后篇导航 |
 | `_includes/navlinks.html` | 文章上一篇/下一篇导航；无前后篇时链接到 `archive.html` |
 | `_includes/sharelinks.html` | 文章分享区域及相关图标、分享链接 |
-| `about.md` | About 页面内容，使用 `layout: page` |
-| `link.md` | 友情链接页面内容，使用 `layout: page` |
+| `README.md` | 英文项目说明页面，使用 `layout: page`，固定路径 `/readme.html` |
+| `link.md` | 已于 2026-11-24 删除；不再作为站点页面 |
 | `_posts/2026-11-21-zuoge-youyisi-de-ren.md` | 当前已核实的开篇文章 |
 
 ### 2.3 主题加载关系（已知部分）
@@ -120,7 +120,7 @@
 
 ### 3.1 清理与恢复
 
-提交记录显示，项目经历了清空仓库内容、恢复网站文件（不恢复旧文章）的过程。当前已核实网站配置、布局、样式、About 页面、友情链接页面等文件存在。
+提交记录显示，项目经历了清空仓库内容、恢复网站文件（不恢复旧文章）的过程。当前已核实网站配置、布局、样式及 README 项目说明页面等文件存在。About 页面文件此前已不存在；友情链接页面已于 2026-11-24 删除。
 
 用户明确的目标是清理旧文章内容、保留网站主题和结构。不得把“清理文章”扩大解释为“删除主题、图片、导航或页面”。
 
@@ -277,8 +277,7 @@ https://github.com/mymsnn/mymsnn.github.io/blob/master/_posts/2026-11-21-zuoge-y
 - 自定义文章布局 `_layouts/post.html`；
 - 分享区域 `_includes/sharelinks.html`；
 - 上一篇/下一篇导航 `_includes/navlinks.html`；
-- About 页面 `about.md`；
-- 友情链接页面 `link.md`；
+- 英文项目说明页面 `README.md`（固定路径 `/readme.html`）；
 - 自定义样式 `css/override.css`；
 - highlight.js 资源引用；
 - 文章图片及其他静态资源。
@@ -665,3 +664,33 @@ https://github.com/mymsnn/mymsnn.github.io/blob/master/_posts/2026-11-21-zuoge-y
 - The original Minima-based design and custom post layout were retained.
 - Custom CSS remains in `css/override.css`.
 - The About page has now been removed and replaced in the navigation by the English README page.
+
+
+---
+
+## 11. 页面导航与英文 README 更新（2026-11-24）
+
+用户要求删除 About 和 Links 页面，并以英文 README 说明博客要点，参考 baotiao 博客的 `CLAUDE.md` 项目说明页。
+
+### 11.1 已完成修改
+
+| 文件 | 修改 |
+|---|---|
+| `README.md` | 扩充为完整英文项目说明页，保留 Jekyll page front matter 和固定路径 `/readme.html` |
+| `_config.yml` | `header_pages` 只保留 `README.md`，从顶部导航移除 Links |
+| `link.md` | 删除友情链接页面 |
+| `about.md` | 核实仓库中此前已不存在（GitHub 文件读取返回 404），无需再次删除 |
+
+README 当前说明内容包括博客定位、内容范围、站点技术栈、仓库目录、文章写作格式、代码高亮、文章布局与维护原则。文档中的部署状态明确要求未经核实不得标记为成功。
+
+### 11.2 提交记录
+
+| 修改 | Commit SHA |
+|---|---|
+| 扩充英文 README | `8329a79c32e3edb80a703ad7a61ef7ddf816a5da` |
+| 导航仅保留 README | `8e47cc689dcaee86309f844d686d5081a35ce847` |
+| 删除 Links 页面 | `73690be34f70615f225f26e42d17378ef566caaa` |
+
+### 11.3 部署状态
+
+修改已推送到 `master`。本次尚未检查 GitHub Pages 构建记录或线上页面，因此部署状态：**待核实**。
