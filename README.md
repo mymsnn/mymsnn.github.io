@@ -1,22 +1,54 @@
-# 好柿花生
+---
+layout: page
+title: README
+permalink: /readme.html
+---
 
-个人博客，记录生活、见闻、回忆，以及值得留下来的技术与网络观察。
+# About This Blog
 
-- 网站名称：好柿花生
-- 站点描述：做一个有意思的人
-- 仓库：[`mymsnn/mymsnn.github.io`](https://github.com/mymsnn/mymsnn.github.io)
-- 站点生成器：Jekyll
-- 基础主题：Minima
-- 发布分支：`master`（以仓库当前 Pages 配置为准）
+**好柿花生** is a personal blog about everyday life, memories, observations, and things worth keeping.
 
-## 内容目录
+The name means wishing for good things in life. Its motto is simple: **Be an interesting person. Live an interesting life.**
 
-- `_posts/`：博客文章
-- `assets/images/`：文章图片
-- `css/override.css`：项目自定义样式
-- `_includes/`、`_layouts/`：项目自定义模板与组件
-- `.github/PROJECT-RECORD.md`：项目维护记录
+This is a personal corner of the internet, not a publication built around a schedule or a particular audience. Posts appear when there is something worth writing down.
 
-## 维护原则
+## What You Will Find Here
 
-保留 Minima 基础主题和现有页面结构。对样式、模板和部署配置采取小范围修改；不直接同步上游仓库，不覆盖个人文章和静态资源。
+### Life and Personal Notes
+
+Thoughts from ordinary days, small discoveries, changing moods, and experiences that might otherwise be forgotten.
+
+### Memories and Stories
+
+Recollections of earlier years, old friends, family, places, and the details that give personal history its meaning.
+
+### Technology and the Internet
+
+Occasional notes on useful tools, websites, software, open-source projects, and interesting things found online. These are personal observations, not professional documentation or product endorsements.
+
+### Things Worth Sharing
+
+Books, music, images, conversations, and other discoveries that leave an impression.
+
+## A Personal Archive
+
+This blog is intended to grow gradually into a personal archive. Not every post needs to be important, timely, or polished. Some entries may simply preserve a moment, an idea, or a passing thought.
+
+There is no fixed publishing schedule and no promise to cover every topic. The aim is to keep a record that feels honest and useful to look back on.
+
+## About the Site
+
+- **Name:** 好柿花生
+- **Motto:** 做一个有意思的人
+- **Format:** Personal blog
+- **Platform:** Jekyll
+- **Theme:** Minima, with a small set of custom layouts and style overrides
+- **Source code:** [GitHub repository](https://github.com/mymsnn/mymsnn.github.io)
+
+The site is kept deliberately simple. The focus is on the writing and the archive, rather than on frequent redesigns or complicated features.
+
+## A Note to Readers
+
+Thank you for stopping by. Read whatever interests you, take your time, and feel free to explore the older posts.
+
+I hope you find something here worth remembering.
