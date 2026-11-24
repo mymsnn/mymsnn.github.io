@@ -4,6 +4,8 @@ date: 2026-11-24
 tags: [Telegram, Android, iOS, 软件更新]
 ---
 
+![Telegram 13.3 更新功能预览](/assets/images/telegram-13-3-update.webp)
+
 Telegram Android 和 iOS 版已更新至 **13.3**。这次更新带来了语音输入、群组通话字幕和聊天文件夹管理等功能。
 
 ## 语音消息转文本
