@@ -617,3 +617,51 @@ https://github.com/mymsnn/mymsnn.github.io/blob/master/_posts/2026-11-21-zuoge-y
 - 日期由 `<time class="dt-published">` 输出，位置紧跟文章 `h1.post-title` 之后，位于作者信息和分享链接之前。
 - 当前文章页顺序为：文章标题 → 日期 → 作者（有设置时）→ 分享链接 → 正文。
 - 本次没有修改 `_layouts/post.html`，今后进行样式优化时必须保留日期在文章标题正下方的顺序。
+
+
+# Project Record — mymsnn.github.io
+
+> Last reviewed: 2026-11-24  
+> Repository: `mymsnn/mymsnn.github.io`  
+> Default branch: `master`
+
+## Latest update — 2026-11-24
+
+### Navigation and README page
+
+- Replaced the repository's Chinese README with an English, visitor-facing site guide.
+- Added Jekyll front matter to `README.md` and assigned the page URL `/readme.html`.
+- Configured Minima navigation to show `README` and `link` only.
+- Removed `about.md`; the old About page is no longer part of the site.
+- Kept the existing theme, post layouts, styles, links page, posts, and images unchanged.
+
+**Deployment:** Pending verification. The changes were committed to `master`; the corresponding Pages build and live page have not yet been checked.
+
+## Project facts
+
+- Site title: 好柿花生
+- Tagline: 做一个有意思的人
+- Repository: https://github.com/mymsnn/mymsnn.github.io
+- Generator: Jekyll
+- Theme: Minima
+- Main content: personal writing about everyday life, memories, observations, technology, and interesting things found online.
+- Posts: `_posts/`
+- Images: `assets/images/`
+- Custom styles: `css/override.css`
+- Custom templates and includes: `_layouts/`, `_includes/`
+
+## Working principles
+
+- Keep the Minima theme and the existing visual identity.
+- Prefer small, reversible changes over broad redesigns.
+- Do not sync or merge the upstream repository wholesale.
+- Do not overwrite or delete posts, images, or site features without explicit permission.
+- Preserve the post layout, date placement, sharing links, and previous/next navigation.
+- Verify deployment before describing a change as live.
+
+## Recent project history
+
+- Site title and tagline were set to 好柿花生 / 做一个有意思的人.
+- The original Minima-based design and custom post layout were retained.
+- Custom CSS remains in `css/override.css`.
+- The About page has now been removed and replaced in the navigation by the English README page.
