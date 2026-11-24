@@ -663,7 +663,9 @@ https://github.com/mymsnn/mymsnn.github.io/blob/master/_posts/2026-11-21-zuoge-y
 - Site title and tagline were set to 好柿花生 / 做一个有意思的人.
 - The original Minima-based design and custom post layout were retained.
 - Custom CSS remains in `css/override.css`.
-- The About page has now been removed and replaced in the navigation by the English README page.
+- The About page was already absent when checked.
+- The Links page (`link.md`) is deleted.
+- The original archive source (`archive.md`) is retained and its navigation entry has been restored alongside README.
 
 
 ---
@@ -677,11 +679,11 @@ https://github.com/mymsnn/mymsnn.github.io/blob/master/_posts/2026-11-21-zuoge-y
 | 文件 | 修改 |
 |---|---|
 | `README.md` | 扩充为完整英文项目说明页，保留 Jekyll page front matter 和固定路径 `/readme.html` |
-| `_config.yml` | `header_pages` 只保留 `README.md`，从顶部导航移除 Links |
-| `link.md` | 删除友情链接页面 |
+| `_config.yml` | `header_pages` 显示 `archive.md` 和 `README.md`；恢复归档入口，移除 Links |
+| `link.md` | 已删除友情链接页面（本次复核仍为 404） |
 | `about.md` | 核实仓库中此前已不存在（GitHub 文件读取返回 404），无需再次删除 |
 
-README 当前说明内容包括博客定位、内容范围、站点技术栈、仓库目录、文章写作格式、代码高亮、文章布局与维护原则。文档中的部署状态明确要求未经核实不得标记为成功。
+README 当前说明内容包括博客定位、内容范围、站点技术栈、仓库目录、文章写作格式、代码高亮、文章布局与维护原则。原有 `archive.md` 页面一直保留，本次已恢复其顶部导航入口。
 
 ### 11.2 提交记录
 
@@ -694,3 +696,14 @@ README 当前说明内容包括博客定位、内容范围、站点技术栈、�
 ### 11.3 部署状态
 
 修改已推送到 `master`。本次尚未检查 GitHub Pages 构建记录或线上页面，因此部署状态：**待核实**。
+
+
+### 11.4 归档导航恢复（2026-11-24）
+
+- 用户要求删除 Links 页面并恢复原来的归档入口。
+- 复核确认：`link.md` 已不存在（GitHub 返回 404）；`archive.md` 原文件仍存在，内容未改动。
+- 修改文件：`_config.yml`。
+- 将 Minima 的 `header_pages` 恢复为 `archive.md`、`README.md`，顶部导航显示 Archive 与 README，不显示 Links。
+- 配置提交 SHA：`ead5044fc12859abf2ea8ad6b4a91c64834513f0`。
+- 未修改：归档页面正文、文章、主题、文章布局及其他页面。
+- 部署状态：待核实；尚未检查本次提交对应的 Pages 构建和线上导航。
