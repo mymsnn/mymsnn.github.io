@@ -605,7 +605,15 @@ https://github.com/mymsnn/mymsnn.github.io/blob/master/_posts/2026-11-21-zuoge-y
 ### 13.5 当前待办与风险
 
 - `_includes/navlinks.html` 引用 `archive.html`；仓库中存在 `archive.md`（`layout: page`、标题为 Blog Archive），Jekyll 会将 Markdown 页面构建为 HTML 页面，因此该引用有对应源文件。仍需在部署后点击验证线上归档页。
-- `_includes/head.html` 同时加载两份 highlight.js 样式表，可能产生层叠覆盖；需通过实际页面效果确认后再决定是否精简。
+- `_includes/head.html` 同时加载 `github.css` 和 `ssms.css`。复核两份 CSS 后确认：`github.css` 提供通用代码高亮，`ssms.css` 的选择器限定在 `.language-tsql`，用于 SQL Server T-SQL 专属配色；两者是通用主题加语言专属覆盖，不应误删其中一份。
 - 当前 `.gitignore` 仍忽略 `_config.yml`，但该文件已被 Git 跟踪；此规则会影响未来新建/重新跟踪时的行为，暂时保留，后续确认是否仍有必要。
 - 当前分支 `master` 未启用保护规则；写入前继续核对分支最新 SHA，避免覆盖他人或并发提交。
 - 本次未检查 GitHub Actions 最近一次运行，也未验证网站线上显示，部署状态仍为待核实。
+
+
+### 13.6 文章日期位置复核（2026-11-24）
+
+- 已重新读取当前 `_layouts/post.html`。
+- 日期由 `<time class="dt-published">` 输出，位置紧跟文章 `h1.post-title` 之后，位于作者信息和分享链接之前。
+- 当前文章页顺序为：文章标题 → 日期 → 作者（有设置时）→ 分享链接 → 正文。
+- 本次没有修改 `_layouts/post.html`，今后进行样式优化时必须保留日期在文章标题正下方的顺序。
