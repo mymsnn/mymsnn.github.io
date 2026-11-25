@@ -311,24 +311,23 @@ hr {
   font-size: 1.4rem;
 }
 
- 
-/* Compact, clickable tags on the homepage */
-.home .post-tags {
+/* Compact tags on article pages only */
+.post-header .post-tags {
   display: flex;
   flex-wrap: wrap;
   gap: 6px 10px;
-  margin: 4px 0 7px;
+  margin: 5px 0 2px;
 }
 
-.home .post-tag,
-.home .post-tag:visited {
+.post-header .post-tag,
+.post-header .post-tag:visited {
   color: #888;
   font-size: 0.78rem;
   line-height: 1.5;
   text-decoration: none;
 }
 
-.home .post-tag:hover {
+.post-header .post-tag:hover {
   color: #333;
   text-decoration: underline;
 }
