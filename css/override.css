@@ -225,35 +225,35 @@ hr {
 
   .custom-site-header .site-title,
   .custom-site-header .site-title:visited {
-    font-size: 1.5rem;
-    font-weight: 500;
+    font-size: 1.3rem;
+    font-weight: 400;
   }
 
   .brand-mark {
-    flex: 0 0 34px;
-    width: 34px;
-    height: 44px;
+    flex: 0 0 29px;
+    width: 29px;
+    height: 37px;
     transform: none;
   }
 
   .brand-mark-bar {
     top: 2px;
-    width: 7px;
-    height: 40px;
+    width: 6px;
+    height: 34px;
   }
 
   .brand-mark-diamond {
-    top: 4px;
-    left: 15px;
-    width: 16px;
-    height: 16px;
+    top: 3px;
+    left: 13px;
+    width: 14px;
+    height: 14px;
   }
 
   .brand-mark-dot {
-    left: 17px;
+    left: 14px;
     bottom: 2px;
-    width: 18px;
-    height: 18px;
+    width: 16px;
+    height: 16px;
   }
 
   .custom-site-header .header-menu-row {
@@ -269,18 +269,18 @@ hr {
   }
 
   .custom-site-header .menu-lines {
-    width: 24px;
-    gap: 5px;
+    width: 21px;
+    gap: 4px;
   }
 
   .custom-site-header .menu-lines i {
-    width: 24px;
+    width: 21px;
     height: 2px;
   }
 
   .custom-site-header .site-description {
     margin: 5px 16px 0;
-    font-size: 1rem;
+    font-size: 0.9rem;
     line-height: 1.4;
   }
 }
