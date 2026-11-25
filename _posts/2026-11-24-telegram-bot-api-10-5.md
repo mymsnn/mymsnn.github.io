@@ -1,7 +1,7 @@
 ---
 title: "Telegram Bot API 10.5 更新：机器人自主配置与私信功能增强"
 date: 2026-11-24
-tags: [Telegram, Bot API, 机器人, 更新]
+tags: [Telegram, BotAPI, 机器人, 更新]
 ---
 
 ![Telegram Bot API 10.5 更新配图](/assets/images/telegram-bot-api-10-5.webp)
