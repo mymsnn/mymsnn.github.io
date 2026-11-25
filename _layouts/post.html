@@ -15,6 +15,14 @@ layout: default
       {%- if author -%}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ author }}</span></span>
       {%- endif -%}</p>
+    {%- if page.tags and page.tags.size > 0 -%}
+      <div class="post-tags" aria-label="Article tags">
+        {%- for tag in page.tags -%}
+          {%- assign tag_slug = tag | slugify -%}
+          <a class="post-tag" href="{{ '/archive.html' | relative_url }}#{{ tag_slug }}">{{ tag | escape }}</a>
+        {%- endfor -%}
+      </div>
+    {%- endif -%}
   </header>
 
   <div class="share-links">
