@@ -16,14 +16,6 @@ layout: default
       <li>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
-        {%- if post.tags and post.tags.size > 0 -%}
-          <div class="post-tags" aria-label="Article tags">
-            {%- for tag in post.tags -%}
-              {%- assign tag_slug = tag | slugify -%}
-              <a class="post-tag" href="{{ '/archive.html' | relative_url }}#{{ tag_slug }}">{{ tag | escape }}</a>
-            {%- endfor -%}
-          </div>
-        {%- endif -%}
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
