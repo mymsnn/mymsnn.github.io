@@ -15,14 +15,6 @@ layout: default
       {%- if author -%}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ author }}</span></span>
       {%- endif -%}</p>
-    {%- if page.tags and page.tags.size > 0 -%}
-      <div class="post-tags" aria-label="Article tags">
-        {%- for tag in page.tags -%}
-          {%- assign tag_slug = tag | slugify -%}
-          <a class="post-tag" href="{{ '/archive.html' | relative_url }}#{{ tag_slug }}">{{ tag | escape }}</a>
-        {%- endfor -%}
-      </div>
-    {%- endif -%}
   </header>
 
   <div class="share-links">
@@ -31,6 +23,28 @@ layout: default
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
+    <script>
+      (function () {
+        var content = document.querySelector('.post-content');
+        if (!content) return;
+        var paragraphs = Array.from(content.querySelectorAll(':scope > p'));
+        var last = paragraphs[paragraphs.length - 1];
+        if (!last) return;
+        var value = last.textContent.trim();
+        var matches = value.match(/#[\p{L}\p{N}_-]+/gu);
+        if (!matches || matches.join(' ') !== value.replace(/\s+/g, ' ')) return;
+        var list = document.createElement('div');
+        list.className = 'post-hashtags';
+        matches.forEach(function (tag) {
+          var link = document.createElement('a');
+          link.className = 'post-hashtag';
+          link.textContent = tag;
+          link.href = '/archive.html#' + encodeURIComponent(tag.slice(1).toLowerCase());
+          list.appendChild(link);
+        });
+        last.replaceWith(list);
+      })();
+    </script>
     {% include navlinks.html %}
   </div>
 
