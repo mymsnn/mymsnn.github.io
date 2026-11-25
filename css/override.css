@@ -305,3 +305,8 @@ hr {
     letter-spacing: 0;
   }
 }
+
+/* Slightly smaller titles in the homepage post list */
+.home .post-list .post-link {
+  font-size: 1.4rem;
+}
