@@ -1047,3 +1047,19 @@ README 当前说明内容包括博客定位、内容范围、站点技术栈、�
 也许老玩家期待的从来不只是更好的画面，而是有一天，还能重新找回当年那种热血沸腾的感觉。
 
 🔗 https://github.com/YuriPlanet/vera20k
+
+
+---
+
+## 24. 网站标题与文章正文各放大 1px（2026-11-26）
+
+- 仓库：`mymsnn/mymsnn.github.io`
+- 分支：`master`
+- 用户确认：网站标题及文章页内容文字各放大 1 号（1px）。
+- 修改文件：`css/override.css`
+- 网站标题：桌面端原 `2rem`，调整为 `calc(2rem + 1px)`；手机端原 `1.4rem`，调整为 `calc(1.4rem + 1px)`。
+- 文章正文：新增 `.post-content { font-size: calc(1rem + 1px); }`，只调整正文容器，不改变文章标题、首页文章列表、网站副标题。
+- 保留原有字体、颜色、行距、导航、图片、布局、主题及其他 CSS。
+- 样式提交 SHA：`97365a41947767727b51d763abc4d2abad27b4be`。
+- 部署状态：已推送至 master；对应 GitHub Pages 构建和线上显示待核实。
+- 下一步：检查对应 Actions 工作流；用户在 Android 手机上刷新网站，确认字号观感。
