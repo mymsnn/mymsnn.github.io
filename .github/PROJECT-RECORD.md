@@ -1030,9 +1030,9 @@ README 当前说明内容包括博客定位、内容范围、站点技术栈、�
 - 日期：2026-11-26。
 - 用户提供的正文按原文完整保留，未改写，仅添加 Front Matter、Markdown 结构及文末井号标签。
 - 项目链接：`https://github.com/YuriPlanet/vera20k`
-- 图片：用户上传的《红色警戒2》截图已在当前工作环境确认存在（原图 1611 × 480，WebP）。尚未上传到仓库，因此文章暂未嵌入图片；待取得可用的图片托管地址或完成二进制上传后，补入文章开头。
+- 图片：已在文章开头插入用户提供的图床图片：`https://i.134688.xyz/file/1795693982774_vera20k-screenshots.webp`（原文件名 vera20k-screenshots.png）。配图更新提交 SHA：`a2a926fe843a2cdb4b461dc15250c05dd5dfb5f0`。
 - 未修改：主题、布局、CSS、导航、配置、首页及其他文章。
-- 部署状态：文章已提交到 master；GitHub Pages 构建及线上页面待核实。
+- 部署状态：文章及配图引用已提交到 master；GitHub Pages 构建及线上页面待核实。
 
 ### 发布正文原文
 
