@@ -74,7 +74,7 @@ hr {
 .custom-site-header .site-title,
 .custom-site-header .site-title:visited {
   color: #f5f5f5;
-  font-size: 2rem;
+  font-size: calc(2rem + 1px);
   font-weight: 600;
   line-height: 1.25;
   letter-spacing: 0.02em;
@@ -225,7 +225,7 @@ hr {
 
   .custom-site-header .site-title,
   .custom-site-header .site-title:visited {
-    font-size: 1.4rem;
+    font-size: calc(1.4rem + 1px);
     font-weight: 400;
   }
 
@@ -304,6 +304,11 @@ hr {
     font-size: 0.82em;
     letter-spacing: 0;
   }
+}
+
+/* Article body text: increase by 1px without changing headings or homepage */
+.post-content {
+  font-size: calc(1rem + 1px);
 }
 
 /* Slightly smaller titles in the homepage post list */
