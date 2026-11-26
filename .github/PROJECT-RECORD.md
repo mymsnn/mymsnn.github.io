@@ -987,3 +987,21 @@ README 当前说明内容包括博客定位、内容范围、站点技术栈、�
 - 视频删除修正提交 SHA：10d5b2d5fa13481c354d325fb90e79f94c6b1451。
 - 部署状态：视频删除修正已提交到 master；尚待核实 GitHub Pages 构建及线上文章、图片显示。
 - 撤稿记录（2026-11-26）：用户要求删除《古城慢行》，已从 `_posts/2026-11-26-gucheng-manxing.md` 删除该文章；删除提交 SHA：`26056c9daf7a8a23989eefeffff8eadfe2d5b416`。本条保留发布历史记录，不代表文章仍在线。
+
+
+---
+
+## 22. 新文章：Cloudflare Workers 免费计划开放邮件发送（2026-11-26）
+
+- 仓库：`mymsnn/mymsnn.github.io`
+- 分支：`master`
+- 文章标题：Cloudflare Workers 免费计划开放邮件发送
+- 文章路径：`_posts/2026-11-26-cloudflare-workers-email-sending-free.md`
+- 文章提交 SHA：`ef1737ed5d0680a264150a5d4e9d973207d8c5bf`
+- 日期：2026-11-26。
+- 内容依据：用户提供的 Cloudflare 官方更新说明（https://developers.cloudflare.com/changelog/post/2026-11-24-email-sending-workers-free/）。
+- 文章内容：介绍 Email Sending 在 Workers Free 计划上线、可通过 Workers 绑定/REST API/SMTP 向已验证地址发送邮件，以及向任意收件人发送邮件需要 Workers Paid 计划。
+- 标签：Cloudflare、Workers、邮件服务、开发工具；文末保留井号标签。
+- 图片：用户提供了一张 Cloudflare Email Sending 公告配图；本次文章未嵌入该图片，因为当前 GitHub 文件写入流程未能将上传图片作为二进制文件提交。文章正文和官方文档链接已发布。
+- 未修改：主题、布局、CSS、导航、配置、首页及其他文章。
+- 部署状态：文章已提交到 master；GitHub Pages 构建及线上页面仍待核实。
