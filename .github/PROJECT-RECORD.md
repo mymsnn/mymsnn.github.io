@@ -1005,3 +1005,14 @@ README 当前说明内容包括博客定位、内容范围、站点技术栈、�
 - 图片：用户提供了一张 Cloudflare Email Sending 公告配图；本次文章未嵌入该图片，因为当前 GitHub 文件写入流程未能将上传图片作为二进制文件提交。文章正文和官方文档链接已发布。
 - 未修改：主题、布局、CSS、导航、配置、首页及其他文章。
 - 部署状态：文章已提交到 master；GitHub Pages 构建及线上页面仍待核实。
+
+
+### 22.1 补充文章配图（2026-11-26）
+
+- 用户提供的 Cloudflare Email Sending 公告配图已转换为 WebP 并上传至仓库：`assets/images/cloudflare-workers-email-sending.webp`。
+- 图片尺寸：900 × 473；文件大小约 9.3 KB。
+- 已更新文章 `_posts/2026-11-26-cloudflare-workers-email-sending-free.md`，在正文开头插入仓库内图片引用：`/assets/images/cloudflare-workers-email-sending.webp`。
+- 图片与文章更新提交 SHA：`9dab6aabaedf0ae0f99ece08e9bf3c105ee73b75`。
+- 本次仅新增图片文件并更新该文章；未修改主题、布局、CSS、导航、配置或其他文章。
+- 更正第 22 节此前“文章未嵌入图片”的记录：该状态已由本次提交修正。
+- 部署状态：已推送到 `master`；GitHub Pages 构建及线上图片显示待核实。
