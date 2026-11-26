@@ -12,11 +12,6 @@ tags: [日常, 旅行, 随拍]
 
 ## 随手记录
 
-<video controls playsinline preload="metadata" style="width: 100%; height: auto;">
-  <source src="https://i.134688.xyz/file/1795676554842_qUQAd5rnOo_zuI5u.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
 ![古城漫步](https://i.134688.xyz/file/1795676530706_Image_1795676265581.webp)
 
 ![古城漫步](https://i.134688.xyz/file/1795676530401_Image_1795676272035.webp)
