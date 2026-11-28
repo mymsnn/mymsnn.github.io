@@ -1103,3 +1103,21 @@ README 当前说明内容包括博客定位、内容范围、站点技术栈、�
 - 修改范围：只新增文章；未修改主题、布局、CSS、导航、配置、首页或其他文章。
 - 部署状态：文章已提交至 master；GitHub Pages 构建及线上页面待核实。
 - 后续任务：将截图上传至 `assets/images/` 并在文章中添加本地图片引用，再核实 Pages 构建及图片显示。
+
+
+---
+
+## 27. 新文章：微软推进以 Windows 内置驱动取代部分第三方驱动（2026-11-28）
+
+- 仓库：`mymsnn/mymsnn.github.io`
+- 分支：`master`
+- 文章路径：`_posts/2026-11-28-microsoft-windows-inbox-drivers.md`
+- 文章提交 SHA：`c72c1bcb02fda73a95d64bf192bcea6117d829ef`
+- 日期：2026-11-28。
+- 内容依据：用户提供的中文稿及 TechSpot 报道（2026-11-27）：https://www.techspot.com/news/114721-microsoft-wants-replace-most-third-party-device-drivers.html
+- 正文：介绍微软推进 Windows 内置驱动的方向，涉及 Windows Ready Print、SoundWire、SDCA、I3C、USB 以太网、MIPI 摄像头及 Driver Quality Initiative（DQI）。补充说明第三方驱动并非立即消失。
+- 标签：Windows、Microsoft、驱动、系统安全；文末保留井号标签。
+- 图片：用户未提供配图，本次未添加图片。
+- 未修改：主题、布局、CSS、导航、配置、首页及其他文章。
+- 完整发布正文保存在上述文章文件中，作为发布版本的唯一准据。
+- 部署状态：文章已提交到 master；GitHub Pages 构建及线上页面待核实。
