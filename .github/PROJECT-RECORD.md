@@ -1121,3 +1121,20 @@ README 当前说明内容包括博客定位、内容范围、站点技术栈、�
 - 未修改：主题、布局、CSS、导航、配置、首页及其他文章。
 - 完整发布正文保存在上述文章文件中，作为发布版本的唯一准据。
 - 部署状态：文章已提交到 master；GitHub Pages 构建及线上页面待核实。
+
+
+---
+
+## 28. 新文章：过场动画已达 30FPS！民间移植 PC 版《GTA6》游戏突飞猛进（2026-11-28）
+
+- 仓库：`mymsnn/mymsnn.github.io`
+- 分支：`master`
+- 文章路径：`_posts/2026-11-28-gta6-unofficial-pc-port-30fps.md`
+- 文章提交 SHA：`cea302e126f3c8bad9b583b9c8704696834a5f01`
+- 内容依据：用户提供的中文稿，并核对 IT之家、PortWatch VI、Notebookcheck、GitHub 官方 DMCA 通知及 PC Gamer 报道。
+- 正文：介绍 CGBJ、NotNozy 等民间移植项目的阶段性帧率报告；区分过场动画约 30 FPS 与实际游戏约 20 FPS 的报告；说明 Boyoo 私人版本成绩尚未独立验证；补充 PS5 游戏文件疑似泄露、Take-Two 对 3,007 个关联仓库发起 DMCA 下架，以及 GitHub 官方宣传 AnyPS5 后删除 X 帖子的事件。
+- 重要限定：所有民间项目完成度和帧率均为特定时间点、特定测试条件下的报告，不代表稳定、完整或官方 PC 版本。
+- 来源链接保留在文章末尾，包括 IT之家、PortWatch VI、Notebookcheck、GitHub DMCA 通知和 PC Gamer。
+- 图片：用户未提供配图，本次未添加图片。
+- 未修改：主题、布局、CSS、导航、配置、首页及其他文章。
+- 部署状态：文章已提交至 master；GitHub Pages 构建及线上页面待核实。
